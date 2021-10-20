@@ -1,0 +1,12 @@
+p {
+  display: inline;
+  background: no-repeat 0 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(yellow), to(green));
+  background-image: linear-gradient(to right, yellow, green);
+  background-size: 0% 2px;
+  -webkit-transition: all 1s;
+  transition: all 1s; }
+  p:hover {
+    background-size: 100% 2px; }
+
+/*# sourceMappingURL=style.css.map */

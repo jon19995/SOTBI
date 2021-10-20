@@ -1,0 +1,42 @@
+@font-face
+    font-family: 'Yandex'
+    src: local('Yandex'),url('../fonts/YandexSansDisplay-Bold.woff2') format('woff2'), url('../fonts/YandexSansDisplay-Bold.woff') format('woff'),url('../fonts/YandexSansDisplay-Bold.ttf') format('ttf'),url('../fonts/YandexSansDisplay-Bold.eot') format('eot')
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    position: relative
+    padding-top: 50vh
+    padding-left: 50vw
+
+#root
+    display: block
+    width: 100px
+    line-height: 50px
+    transform: translate(-50%,-50%)
+    font-size: 28px
+    text-align: center
+    font-family: 'Yandex'
+    &:before
+        display: block
+        content: "Такси"
+        position: absolute
+        left: 105%
+        top: -5px
+        width: 100px
+        border-bottom: 7px solid #ffcc00
+        border-top: 7px solid #ffcc00
+        border-left: 7px solid #ffcc00
+    &:after
+        display: block
+        content: ""
+        position: absolute
+        left: 193%
+        top: 8px
+        width: 31px
+        height: 31px
+        border-right: 7px solid #ffcc00
+        border-top: 7px solid #ffcc00
+        transform: rotate(45deg) skew(10deg, 10deg)
